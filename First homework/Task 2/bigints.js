@@ -1,6 +1,6 @@
 export default class Bigints{
   addition(x, y) {
-    let answer = []
+    let answer = [];
     y = this.#toBigInt(y);
     x = this.#toBigInt(x);
     if (x[1] == y[1]) {
@@ -20,7 +20,7 @@ export default class Bigints{
   }
 
   subtraction(x, y) {
-    let answer = []
+    let answer = [];
     y = this.#toBigInt(y);
     x = this.#toBigInt(x);
     if (x[1] == y[1]) {
@@ -57,7 +57,7 @@ export default class Bigints{
       ]);
     } else {
       return this.#toString([
-        x[0] / y[0],
+      x[0] / y[0],
         0
       ]);
     }
