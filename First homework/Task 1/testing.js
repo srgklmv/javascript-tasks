@@ -1,4 +1,4 @@
-import Formatter from "./1 string.js";
+import Formatter from "./string.js";
 
 
 let formatter = new Formatter();
